@@ -619,6 +619,32 @@ const classes = {
     'chai-list-disc': 'list-style-type: disc',
     'chai-list-decimal': 'list-style-type: decimal',
 
+    // ===== BUTTONS =====
+    'chai-btn': 'display: inline-flex; align-items: center; justify-content: center; font-weight: 600; cursor: pointer; border: none; transition: opacity 0.15s ease',
+    'chai-btn-primary': 'background-color: #f97316; color: #ffffff; padding: 0.625rem 1.25rem; border-radius: 0.5rem',
+    'chai-btn-secondary': 'background-color: #3b82f6; color: #ffffff; padding: 0.625rem 1.25rem; border-radius: 0.5rem',
+    'chai-btn-outline': 'background-color: transparent; color: #0a0a0a; padding: 0.625rem 1.25rem; border-radius: 0.5rem; border: 1px solid #e4e4e7',
+    'chai-btn-danger': 'background-color: #ef4444; color: #ffffff; padding: 0.625rem 1.25rem; border-radius: 0.5rem',
+    'chai-btn-sm': 'padding: 0.375rem 0.875rem; font-size: 0.875rem; border-radius: 0.375rem',
+    'chai-btn-lg': 'padding: 0.875rem 1.75rem; font-size: 1.125rem; border-radius: 0.75rem',
+
+    // ===== BADGES =====
+    'chai-badge': 'display: inline-flex; align-items: center; font-size: 0.75rem; font-weight: 600; padding: 0.25rem 0.75rem; border-radius: 9999px',
+    'chai-badge-blue': 'background-color: #3b82f6; color: #ffffff',
+    'chai-badge-green': 'background-color: #22c55e; color: #ffffff',
+    'chai-badge-red': 'background-color: #ef4444; color: #ffffff',
+    'chai-badge-yellow': 'background-color: #eab308; color: #000000',
+    'chai-badge-purple': 'background-color: #a855f7; color: #ffffff',
+    'chai-badge-orange': 'background-color: #f97316; color: #ffffff',
+    'chai-badge-gray': 'background-color: #6b7280; color: #ffffff',
+
+    // ===== ALERTS =====
+    'chai-alert': 'display: flex; align-items: center; gap: 0.75rem; padding: 1rem; border-radius: 0.75rem; border-width: 1px; border-style: solid; font-size: 0.875rem; font-weight: 500',
+    'chai-alert-info': 'background-color: rgba(59,130,246,0.08); border-color: #3b82f6; color: #3b82f6',
+    'chai-alert-success': 'background-color: rgba(34,197,94,0.08); border-color: #22c55e; color: #22c55e',
+    'chai-alert-warning': 'background-color: rgba(234,179,8,0.08); border-color: #eab308; color: #854d0e',
+    'chai-alert-danger': 'background-color: rgba(239,68,68,0.08); border-color: #ef4444; color: #ef4444',
+
 } as const satisfies Record<string, string>;
 
 export default classes;
